@@ -64,7 +64,7 @@ if(!isset($_SESSION['managerId'])){ header('location:login.php');}
         </tr><tr>
           <td>Branch Name</td>
           <th><?php echo $row['branchName'] ?></th>
-          <td>Brach Code</td>
+          <td>Branch Code</td>
           <th><?php echo $row['branchNo'] ?></th>
         </tr><tr>
           <td>Current Balance</td>
@@ -72,8 +72,8 @@ if(!isset($_SESSION['managerId'])){ header('location:login.php');}
           <td>Account Type</td>
           <th><?php echo $row['accountType'] ?></th>
         </tr><tr>
-          <td>Cnic</td>
-          <th><?php echo $row['cnic'] ?></th>
+          <td>Aadhaar Number</td>
+          <th><?php echo $row['AadhaarNumber'] ?></th>
           <td>City</td>
           <th><?php echo $row['city'] ?></th>
         </tr><tr>
