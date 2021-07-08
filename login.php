@@ -73,7 +73,7 @@
 	 ?>
 </head>
 <body style="background: url(images/bank.jpg);background-size: 100%">
-<h1 class="alert alert-success rounded-0"><?php echo "SAS Bank"; ?><small class="float-right text-muted" style="font-size: 12pt;"></small></h1>
+<h1 class="alert alert-success rounded-0"><?php echo bankname; ?><small class="float-right text-muted" style="font-size: 12pt;"></small></h1>
 <br>
 <?php echo $error ?>
 <br>
