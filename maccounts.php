@@ -92,7 +92,7 @@ if (isset($_GET['del']) && !empty($_GET['del']))
     </table>
   </div>
   <div class="card-footer text-muted">
-    <?php echo bankname; ?>
+    <?php echo "SAS Bank" ?>
   </div>
 </div>
 
